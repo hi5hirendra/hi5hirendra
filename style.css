@@ -1,0 +1,25 @@
+body{
+    font-family: cera promodern,lithos pro,comic sans ms, sans-serif;
+    background-color: #161616;
+}
+nav{
+    display: flex;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 3vw;
+}
+a.active{
+    color: #00c100;
+}
+#home{
+    margin-right: auto;
+}
+p{
+    text-align: center;
+    font-size: 4.5vw;
+    color: #00c100;
+    
+}
