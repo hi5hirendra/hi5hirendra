@@ -85,3 +85,11 @@ section article img:hover{
     bottom: 0;
     background-color: #172627;
 }*/
+@media screen and (max-width:823px) {
+    section{
+        display: block;
+    }
+    .about-head{
+        text-align: center;
+    }
+}
