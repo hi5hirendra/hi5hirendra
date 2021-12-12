@@ -99,9 +99,9 @@ section article img:hover {
   article a {
     padding: 0;
   }
-  .fa-envelope,
+  i.far.fa-envelope,
   i.fab.fa-linkedin,
-  .fa-phone-square-alt {
+  i.fas.fa-phone-square-alt {
     display: block;
   }
 }
