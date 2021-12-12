@@ -100,7 +100,7 @@ section article img:hover {
     padding: 0;
   }
   .fa-envelope,
-  .fa-linkedin,
+  i.fab.fa-linkedin,
   .fa-phone-square-alt {
     display: block;
   }
