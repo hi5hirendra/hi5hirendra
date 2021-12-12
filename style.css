@@ -99,8 +99,8 @@ section article img:hover {
   article a {
     padding: 0;
   }
-  i.far.fa-envelope,
-  .fa-linkedin,
+  .fa-envelope,
+  i .fa-linkedin,
   .fa-phone-square-alt {
     display: block;
   }
