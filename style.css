@@ -93,4 +93,10 @@ section article img:hover{
     .about-head{
         text-align: center;
     }
+    article a{
+        padding: 0;
+    }
+    .fa-envelope, .fa-linkedin, .fa-phone-square-alt{
+        display: block;
+    }
 }
