@@ -38,10 +38,6 @@ section {
   font-size: large;
   text-align: left;
 }
-p .about-head {
-  border-color: #d44848;
-  border-width: 6px;
-}
 article a {
   color: #a1a1a1;
 }
@@ -103,5 +99,8 @@ section article img:hover {
   i.fab.fa-linkedin,
   i.fas.fa-phone-square-alt {
     display: block;
+  }
+  p.about-head {
+    background: linear-gradient(to right, white, black, white);
   }
 }
