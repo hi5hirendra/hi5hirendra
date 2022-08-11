@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pstyle.css" />
+</head>
+
+<body>
+    <h1>LAB WORK - WEB TECHNOLOGY</h1>
+    <br />
+    <ol>
+        <!-- 1 -->
+        <li>
+            To receive two numbers and display their sum.<br /><br />
+            <input type="number" id="num1" placeholder="First Number" />
+            <input type="number" id="num2" placeholder="Second Number" />
+            <button onclick="calc()">SUM</button>
+            <p id="sum"></p>
+        </li>
+        <!-- 2 -->
+        <li>
+            To receive lower and upper range and display all prime numbers between
+            the range.<br /><br />
+            <input type="number" id="low" placeholder="Lower Range" />
+            <input type="number" id="high" placeholder="Upper Range" />
+            <button onclick="prime()">Prime Numbers</button>
+            <p id="pnum"></p>
+        </li>
+        <!-- 3 -->
+        <li>
+            To take two strings and display "found" if first string is a substring
+            of the second string else display "not found".<br /><br />
+            <input type="text" id="str1" placeholder="String 1" />
+            <input type="text" id="str2" placeholder="String 2" />
+            <button onclick="substr()">Check Substring</button>
+            <p id="subs"></p>
+        </li>
+        <!-- 4 -->
+        <li>
+            To design two combos and the options selected in the first combo shall
+            not appear in the second combo. Both the combos are having same set of
+            options.<br /><br />
+            Combo 1:
+            <select>
+                <option value="1">Bilaspur</option>
+                <option value="2">Raipur</option>
+                <option value="3">Raigarh</option>
+            </select><br /><br />
+            Combo 2:
+            <select>
+                <option value="1">Bilaspur</option>
+                <option value="2">Raipur</option>
+                <option value="3">Raigarh</option>
+            </select>
+        </li>
+        <!-- 5 -->
+        <li>
+            To design a textbox that only receives exactly six characters.<br /><br />
+            <form>
+                <input type="text" id="textbox" minlength="6" maxlength="6" />
+                <input type="submit" />
+            </form>
+        </li>
+        <!-- 6 -->
+        <li>
+            To design a dynamic table with click add row button which create another
+            row with "add row" button. Once add row is clicked it would change to
+            "delete row" and onclick that particular row will be deleted.<br /><br />
+            <div id="dynamictable"></div>
+            <br />
+            <button onclick="addrow()">Add row</button>
+        </li>
+        <!-- 7 -->
+        <li>
+            To design a button "Create button" which on click will create another
+            button "Button1" and on clicking "Button1", "Button2" will be created
+            and so on. Once "Create button" is clicked then it should be
+            inactive.<br /><br />
+            <button id="createButton" onclick="createButton()">
+                Create Button
+            </button>
+            <p id="nextButton"></p>
+        </li>
+        <!-- 8 -->
+        <li>
+            To Receive one quadratic equation [Ax<sup>2</sup> + Bx + C] and to find
+            the roots of the equation.<br /><br />
+            <input type="number" id="a" placeholder="A" />x<sup>2</sup> +
+            <input type="number" id="b" placeholder="B" />x +
+            <input type="number" id="c" placeholder="C" />
+            <button onclick="findroots()">Find Roots</button>
+            <p id="roots"></p>
+        </li>
+        <!-- 9 -->
+        <li>
+            To design an html form that contains paragraph, text, checkbox & button.
+            All elements have a common onclick event handler functionA() which
+            displays clicked elements content, value, style in alert box.<br /><br />
+            <div id="form">
+                <form>
+                    <p id="common" style="color: red">Paragraph</p>
+                    <br />
+                    <input type="text" id="common" placeholder="Textbox" /><br /><br />
+                    <input type="checkbox" id="common" name="checkbox" />
+                    <label for="checkbox">Checkbox</label><br /><br />
+                    <button id="common" style="color: orange">Button</button>
+                </form>
+            </div>
+        </li>
+        <!-- 10 -->
+        <li>
+            To design an html page where if we click toggle button '&gt;' then copy
+            left textarea texts to right and button becomes '&lt;' if left textarea is empty otherwise if right textarea
+            is empty button becomes '&gt;'. <br /><br />
+            <textarea id="txtarea1" cols="20" rows="5"></textarea>
+            <button id="toggle" onclick="toggle()">&gt;</button>
+            <textarea id="txtarea2" cols="20" rows="5"></textarea>
+        </li>
+        <!-- 12 -->
+        <li>
+            To design an html page which ask you your name in prompt on load and
+            repeats asking if you give empty name otherwise it displays your name in
+            a paragraph.<br /><br />
+            <button onclick="promp()">Prompt</button>
+            <p id="uname"></p>
+        </li>
+    </ol>
+    <footer>Submitted by - Hirendra Patel</footer>
+    <script src="pscript.js"></script>
+</body>
+
+</html>

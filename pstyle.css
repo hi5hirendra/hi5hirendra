@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+li {
+    margin: 10px 0 20px 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid coral;
+}
+
+li:nth-child(odd) {
+    background-color: beige;
+}
+
+#dynamictable table,
+th,
+td {
+    border: 2px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+
+}
+
+#form {
+    padding: 5px;
+    background-color: lightblue;
+    width: 20%;
+}
+
+#txtarea1 {
+    margin-right: 20px;
+}
+
+#toggle {
+    padding: 10px;
+}
+
+#txtarea2 {
+    margin-left: 20px;
+}
+
+footer {
+
+    bottom: 0;
+    width: 99%;
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 5px;
+}
