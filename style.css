@@ -55,8 +55,9 @@ ul li::before {
 }
 img {
   background: url("mypic.jpg");
-  filter: grayscale(100%);
+/*   filter: grayscale(100%); */
 /*   background-size: cover; */
+  object-fit: fill;
   width: 250px;
   height: 250px;
   border-radius: 20%;
@@ -66,7 +67,9 @@ img {
 }
 section article img:hover {
   background: url("/mypic.jpg");
+  filter: grayscale(100%);
 /*   background-size: cover; */
+  object-fit: fill;
   border-color: #00c100;
 }
 .fa-envelope {
