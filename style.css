@@ -54,7 +54,8 @@ ul li::before {
   margin-right: 2em;
 }
 img {
-  background: url("me-bw.jpg");
+  background: url("mypic.jpg");
+  filter: grayscale(100%);
   background-size: cover;
   width: 250px;
   height: 250px;
@@ -64,7 +65,7 @@ img {
   margin-bottom: 10px;
 }
 section article img:hover {
-  background: url("/me-org.jpg");
+  background: url("/mypic.jpg");
   background-size: cover;
   border-color: #00c100;
 }
